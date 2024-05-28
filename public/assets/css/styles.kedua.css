@@ -1,0 +1,86 @@
+  /* Icon Style */
+
+  .material-icons {
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 35px;
+  } 
+
+  /* Style untuk Row atas Monitoring */
+  
+  .main-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+    border-radius: 5px;
+  }
+
+  .card:first-child {
+    background-color: transparent;
+  }
+
+  .card:nth-child(2) {
+    background-color: transparent;
+  }
+
+  .card:nth-child(3) {
+    background-color: transparent;
+  }
+
+  .card:nth-child(4) {
+    background-color: transparent;
+  }
+
+  .card-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .card-inner > .material-icons {
+    font-size: 30px;
+  }
+
+  
+  /* Style untuk Calender */
+
+  #calendar {
+    max-width: 500px;
+    margin: 0px auto;
+    font-size: 9px;
+  }
+  
+
+  /* Style untuk Pie Chart */
+
+  .other-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  
+  }
+
+  .chart-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+  }
+  
+  .card-body {
+    height: 50%; /* Untuk membagi tinggi card menjadi dua bagian */
+  }
+
+  .other-cards-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  
+  }

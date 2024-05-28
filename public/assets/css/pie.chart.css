@@ -1,0 +1,26 @@
+/* .chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+
+.chart {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* Fungsi untuk mengatur pie chart dalam monitoring.php */
+
+.chart-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75%;
+}
+
+.card-body {
+  height: 50%; /* Untuk membagi tinggi card menjadi dua bagian */
+}
